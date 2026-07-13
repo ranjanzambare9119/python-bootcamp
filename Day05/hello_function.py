@@ -1,0 +1,10 @@
+def greet():
+    print('Hello Python')
+print('==========')
+print('Greeting Message')
+print('==========')
+greet()
+greet()
+greet()
+greet()
+greet()
