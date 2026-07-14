@@ -1,0 +1,16 @@
+marks=[]
+print('Enter marks of 5 subjects:')
+for i in range(1,6):
+    mark= float(input(f'Subject{i}:'))
+    marks.append(mark)
+total= sum(marks)
+highest= max(marks)
+lowest= min(marks)
+average= total/len(marks)
+print('==========')
+print('Summary of marks')
+print('==========')
+print('Total marks:', total)
+print('Highest marks:', highest)
+print('Lowest marks:', lowest)
+print('Average marks:', average)
