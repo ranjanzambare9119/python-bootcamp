@@ -1,0 +1,8 @@
+print('==========')
+print('String Methods')
+print('==========')
+user_name= input('Enter User Name:')
+print(user_name.upper())
+print(user_name.lower())
+print(user_name.title())
+print(user_name.capitalize())

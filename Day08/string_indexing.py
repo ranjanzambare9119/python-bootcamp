@@ -1,0 +1,8 @@
+string= input('Enter your name:')
+print('==========')
+print('String Indexing')
+print('==========')
+print(f'Name is{string}')
+print(f'First character is {string[0]}')
+print(f'Last character is {string[-1]}')
+print(f'Third character is {string[2]}')
