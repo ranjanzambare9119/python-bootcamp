@@ -1,0 +1,7 @@
+print('==========')
+print('Tuple Slicing')
+print('==========')
+numbers = (10,20,30,40,50,60)
+print(f'First 3 numbers are: {numbers[:3]}')
+print(f'Last 2 numbers are: {numbers[-2:]}')
+print(f'Middle numbers are: {numbers[2:4]}')

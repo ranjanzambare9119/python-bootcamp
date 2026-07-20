@@ -1,0 +1,6 @@
+print('==========')
+print('Tuple Methods')
+print('==========')
+numbers = (10,20,10,30,10,40)
+print(f'Count of 10 is: {numbers.count(10)}')
+print(f'Index of 30 is: {numbers.index(30)}')

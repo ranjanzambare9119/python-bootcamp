@@ -1,0 +1,7 @@
+print('==========')
+print('Tuple Indexing')
+print('==========')
+languages = ("Python","Java","C++","SQL")
+print(f'First Language {languages[0]}')
+print(f'Second Language {languages[1]}')
+print(f'Last Language {languages[-1]}')
